@@ -98,7 +98,7 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:robochalcak/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:http://${robochalcak}:${git-Robo1987}@github.com:robochalcak/sfg-pet-clinic.git</developerConnection>
         <tag>sfg-pet-clinic-0.0.4</tag>
     </scm>
     <repositories>
