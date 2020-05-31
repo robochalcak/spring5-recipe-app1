@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Pet {
 
     private PetType petType;
-    private Ovner ovner;
+    private Owner ovner;
     private LocalDate birthDate;
 
     public PetType getPetType() {
@@ -16,11 +16,11 @@ public class Pet {
         this.petType = petType;
     }
 
-    public Ovner getOvner() {
+    public Owner getOvner() {
         return ovner;
     }
 
-    public void setOvner(Ovner ovner) {
+    public void setOvner(Owner ovner) {
         this.ovner = ovner;
     }
 

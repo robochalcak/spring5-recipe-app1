@@ -25,14 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="adding POJOs. Closes #2">
-      <change afterPath="$PROJECT_DIR$/pom.xml.releaseBackup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/release-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="adding the release plugin">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/OwnerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/VetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sfg-pet-clinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sfg-pet-clinic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Ovner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -104,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590925328349</updated>
       <workItem from="1590925335585" duration="7705000" />
-      <workItem from="1590959479837" duration="2185000" />
+      <workItem from="1590959479837" duration="3545000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590959832112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding the release plugin">
+      <created>1590961743813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590961743813</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +185,8 @@
     <MESSAGE value="Initial Project Add" />
     <MESSAGE value="adding POJOs. Closses #2" />
     <MESSAGE value="adding POJOs. Closes #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding POJOs. Closes #2" />
+    <MESSAGE value="adding the release plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the release plugin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1590926047355">
@@ -189,6 +197,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590956050838" />
+    <state x="494" y="132" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590965899275">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="494" y="132" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590965899275" />
     <state width="1557" height="289" key="GridCell.Tab.0.bottom" timestamp="1590961640064">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -205,10 +217,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="289" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590961640064" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1590959835285">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1590961748201">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590959835285" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590961748201" />
     <state x="182" y="91" key="new project wizard" timestamp="1590930399469">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
