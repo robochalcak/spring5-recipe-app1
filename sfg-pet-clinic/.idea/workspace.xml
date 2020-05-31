@@ -25,13 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="adding the release plugin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/OwnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/VetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Ovner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Implement Interfaces for services. Closes #5">
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590925328349</updated>
       <workItem from="1590925335585" duration="7705000" />
-      <workItem from="1590959479837" duration="3545000" />
+      <workItem from="1590959479837" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -162,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590961743813</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implement Interfaces for services. Closes #5">
+      <created>1590966227901</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590966227901</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +187,8 @@
     <MESSAGE value="adding POJOs. Closses #2" />
     <MESSAGE value="adding POJOs. Closes #2" />
     <MESSAGE value="adding the release plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the release plugin" />
+    <MESSAGE value="Implement Interfaces for services. Closes #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Interfaces for services. Closes #5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1590926047355">
