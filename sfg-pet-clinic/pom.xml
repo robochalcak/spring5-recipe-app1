@@ -99,6 +99,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:robochalcak/sfg-pet-clinic.git</developerConnection>
+        <tag>sfg-pet-clinic-0.0.4</tag>
     </scm>
     <repositories>
         <repository>
