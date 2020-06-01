@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="adding base entity. close #10">
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="refactoring to commond crud interface. closes #11">
       <change afterPath="$PROJECT_DIR$/../jokeapp/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jokeapp/HELP.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jokeapp/jokeapp.iml" afterDir="false" />
@@ -39,11 +39,11 @@
       <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/resources/templates/chucknorris.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jokeapp/src/test/java/guru/springframework/joke/JokeappApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/CrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/map/AbstractMapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/map/OwnerServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/map/PetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/map/VetServiceMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/VetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +123,7 @@
       <workItem from="1591005845416" duration="263000" />
       <workItem from="1591006156830" duration="78000" />
       <workItem from="1591006309129" duration="776000" />
-      <workItem from="1591008747308" duration="534000" />
+      <workItem from="1591008747308" duration="1711000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590967058529</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactoring to commond crud interface. closes #11">
+      <created>1591009391888</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591009391888</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,17 +235,18 @@
     <MESSAGE value="adding the release plugin" />
     <MESSAGE value="Implement Interfaces for services. Closes #5" />
     <MESSAGE value="adding base entity. close #10" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding base entity. close #10" />
+    <MESSAGE value="refactoring to commond crud interface. closes #11" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring to commond crud interface. closes #11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1590926047355">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="685" y="293" key="#Notifications/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590926047355" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1590966917769">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591010376809">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590966917769" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591010376809" />
     <state x="494" y="132" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590965899275">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -272,10 +280,10 @@
     </state>
     <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591006849442" />
     <state x="1781" y="9" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005276524" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1590967061908">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591009395354">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590967061908" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591009395354" />
     <state x="182" y="91" key="new project wizard" timestamp="1591006860622">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
