@@ -25,12 +25,25 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Implement Interfaces for services. Closes #5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" afterDir="false" />
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="adding base entity. close #10">
+      <change afterPath="$PROJECT_DIR$/../jokeapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/jokeapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/java/guru/springframework/joke/JokeappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/java/guru/springframework/joke/controllers/JokeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/java/guru/springframework/joke/services/JokeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/java/guru/springframework/joke/services/JokeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/main/resources/templates/chucknorris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokeapp/src/test/java/guru/springframework/joke/JokeappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/CrudService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgpetclinic/servises/VetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +85,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -103,7 +117,13 @@
       <option name="presentableId" value="Default" />
       <updated>1590925328349</updated>
       <workItem from="1590925335585" duration="7705000" />
-      <workItem from="1590959479837" duration="4484000" />
+      <workItem from="1590959479837" duration="5529000" />
+      <workItem from="1591005063250" duration="237000" />
+      <workItem from="1591005364542" duration="176000" />
+      <workItem from="1591005845416" duration="263000" />
+      <workItem from="1591006156830" duration="78000" />
+      <workItem from="1591006309129" duration="776000" />
+      <workItem from="1591008747308" duration="534000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -175,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590966503433</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding base entity. close #10">
+      <created>1590967058529</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590967058529</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +227,8 @@
     <MESSAGE value="adding POJOs. Closes #2" />
     <MESSAGE value="adding the release plugin" />
     <MESSAGE value="Implement Interfaces for services. Closes #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Interfaces for services. Closes #5" />
+    <MESSAGE value="adding base entity. close #10" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding base entity. close #10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1590926047355">
@@ -215,34 +243,44 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="494" y="132" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590965899275" />
-    <state width="1557" height="289" key="GridCell.Tab.0.bottom" timestamp="1590961640064">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1591007086423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="289" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590961640064" />
-    <state width="1557" height="289" key="GridCell.Tab.0.center" timestamp="1590961640064">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591007086423" />
+    <state width="1557" height="289" key="GridCell.Tab.0.bottom" timestamp="1591005006699">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="289" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590961640064" />
-    <state width="1557" height="289" key="GridCell.Tab.0.left" timestamp="1590961640064">
+    <state width="1557" height="289" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591005006699" />
+    <state width="1557" height="289" key="GridCell.Tab.0.center" timestamp="1591005006698">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="289" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590961640064" />
-    <state width="1557" height="289" key="GridCell.Tab.0.right" timestamp="1590961640064">
+    <state width="1557" height="289" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591005006698" />
+    <state width="1557" height="289" key="GridCell.Tab.0.left" timestamp="1591005006698">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="289" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590961640064" />
+    <state width="1557" height="289" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591005006698" />
+    <state width="1557" height="289" key="GridCell.Tab.0.right" timestamp="1591005006699">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="289" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591005006699" />
     <state x="586" y="132" key="RollbackChangesDialog" timestamp="1590966439593">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="586" y="132" key="RollbackChangesDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590966439593" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1590966518481">
+    <state x="213" y="11" key="SettingsEditor" timestamp="1591006849442">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590966518481" />
-    <state x="182" y="91" key="new project wizard" timestamp="1590930399469">
+    <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591006849442" />
+    <state x="1781" y="9" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005276524" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1590967061908">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="182" y="91" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590930399469" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590967061908" />
+    <state x="182" y="91" key="new project wizard" timestamp="1591006860622">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="91" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591006860622" />
+    <state x="101" y="182" key="new project wizard/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005288403" />
     <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1590960618393">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
