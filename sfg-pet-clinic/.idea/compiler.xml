@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pet-clinic-web" />
         <module name="sfg-pet-clinic" />
+        <module name="pet-clinic-data" />
         <module name="sfg-pet-clinic-data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pet-clinic-data" target="1.8" />
       <module name="pet-clinic-web" target="1.8" />
       <module name="sfg-pet-clinic" target="1.8" />
       <module name="sfg-pet-clinic-data" target="1.8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pet-clinic-data" options="-parameters" />
       <module name="pet-clinic-web" options="-parameters" />
       <module name="sfg-pet-clinic" options="-parameters" />
       <module name="sfg-pet-clinic-data" options="-parameters" />

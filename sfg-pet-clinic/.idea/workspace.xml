@@ -25,24 +25,28 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Adding bootstrap fro data. Closes #14">
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Adding Spring Config. Closes #22">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/OwnerServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/OwnerServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/PetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/PetServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/VetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/VetServiceMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +58,39 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="pet-clinic-data/invalid/JPA" />
+      <facet id="pet-clinic-data/invalid/Spring" />
+      <facet id="pet-clinic-data/invalid/Web" />
+      <facet id="pet-clinic-web/invalid/JPA" />
+      <facet id="pet-clinic-web/invalid/Spring" />
+      <facet id="pet-clinic-web/invalid/Web" />
+      <facet id="sfg-pet-clinic/invalid/JPA" />
+      <facet id="sfg-pet-clinic/invalid/Spring" />
+      <facet id="sfg-pet-clinic/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="255" />
+    <option name="y" value="196" />
+    <option name="width" value="1374" />
+    <option name="height" value="610" />
   </component>
   <component name="ProjectId" id="1cfh04EbqbVqxHLEMgYKJc4hQDo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -88,30 +111,57 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sfg-di" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591097443001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\sfg-pet-clinic-data" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="guru.springframework.sfgpetclinic" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfgpetclinic.model" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates\owners" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates\owners\vets" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\sfg-pet-clinic-data" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn cle" />
       <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SfgPetClinicApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PetClinicWebApplication">
+    <configuration name="PetClinicWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.PetClinicWebApplication" />
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PetClinicWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pet-clinic-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.PetClinicWebApplication" />
@@ -148,7 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SfgPetClinicApplication (1)" />
+        <item itemvalue="Application.PetClinicWebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +219,9 @@
       <workItem from="1591005845416" duration="263000" />
       <workItem from="1591006156830" duration="78000" />
       <workItem from="1591006309129" duration="776000" />
-      <workItem from="1591008747308" duration="13409000" />
+      <workItem from="1591008747308" duration="16591000" />
+      <workItem from="1591097520774" duration="450000" />
+      <workItem from="1591098033955" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -311,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591093201636</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adding Spring Config. Closes #22">
+      <created>1591093955277</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591093955277</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,10 +386,23 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Project Add" />
     <MESSAGE value="adding POJOs. Closses #2" />
     <MESSAGE value="adding POJOs. Closes #2" />
@@ -344,17 +416,18 @@
     <MESSAGE value="Adding vets page and controller. closes #7" />
     <MESSAGE value="Adding owners page and controller. closes #13" />
     <MESSAGE value="Adding bootstrap fro data. Closes #14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding bootstrap fro data. Closes #14" />
+    <MESSAGE value="Adding Spring Config. Closes #22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Spring Config. Closes #22" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591026054671">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="685" y="293" key="#Notifications/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591026054671" />
-    <state x="280" y="4" key="#Project_Structure" timestamp="1591026158154">
+    <state x="280" y="4" key="#Project_Structure" timestamp="1591096179492">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591026158154" />
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591096179492" />
     <state x="458" y="28" key="#SfgPetClinicApplication_(1)" timestamp="1591093008857">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -379,38 +452,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591049077180" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1591093783493">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1591098943667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783493" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1591093783492">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943667" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1591098943666">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783492" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1591093783491">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943666" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1591098943666">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783491" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1591093783492">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943666" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1591098943667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783492" />
-    <state width="1557" height="235" key="GridCell.Tab.1.bottom" timestamp="1591093783493">
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943667" />
+    <state width="871" height="229" key="GridCell.Tab.1.bottom" timestamp="1591097978790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783493" />
-    <state width="1557" height="235" key="GridCell.Tab.1.center" timestamp="1591093783493">
+    <state width="871" height="229" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591097978790" />
+    <state width="871" height="229" key="GridCell.Tab.1.center" timestamp="1591097978790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783493" />
-    <state width="1557" height="235" key="GridCell.Tab.1.left" timestamp="1591093783493">
+    <state width="871" height="229" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591097978790" />
+    <state width="871" height="229" key="GridCell.Tab.1.left" timestamp="1591097978790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783493" />
-    <state width="1557" height="235" key="GridCell.Tab.1.right" timestamp="1591093783493">
+    <state width="871" height="229" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591097978790" />
+    <state width="871" height="229" key="GridCell.Tab.1.right" timestamp="1591097978790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093783493" />
+    <state width="871" height="229" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591097978790" />
     <state x="586" y="132" key="RollbackChangesDialog" timestamp="1591025983867">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -420,18 +493,22 @@
     </state>
     <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591006849442" />
     <state x="1781" y="9" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005276524" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591093203580">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591093956983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093203580" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093956983" />
     <state x="365" y="124" key="new project wizard" timestamp="1591091905267">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="365" y="124" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591091905267" />
     <state x="101" y="182" key="new project wizard/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005288403" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1590960618393">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1591096355281">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1590960618393" />
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591096355281" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1591094364368">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591094364368" />
   </component>
 </project>
