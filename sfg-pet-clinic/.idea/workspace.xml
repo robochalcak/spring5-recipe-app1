@@ -25,28 +25,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Adding Spring Config. Closes #22">
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Added Owners List and updated controller.Closes #16">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +214,7 @@
       <workItem from="1591006309129" duration="776000" />
       <workItem from="1591008747308" duration="16591000" />
       <workItem from="1591097520774" duration="450000" />
-      <workItem from="1591098033955" duration="909000" />
+      <workItem from="1591098033955" duration="2033000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -370,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591093955277</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added Owners List and updated controller.Closes #16">
+      <created>1591099054343</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591099054343</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +417,8 @@
     <MESSAGE value="Adding owners page and controller. closes #13" />
     <MESSAGE value="Adding bootstrap fro data. Closes #14" />
     <MESSAGE value="Adding Spring Config. Closes #22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Spring Config. Closes #22" />
+    <MESSAGE value="Added Owners List and updated controller.Closes #16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Owners List and updated controller.Closes #16" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591026054671">
@@ -452,22 +453,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591049077180" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1591098943667">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1591100017136">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943667" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1591098943666">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591100017136" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1591100017135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943666" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1591098943666">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591100017135" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1591100017135">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943666" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1591098943667">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591100017135" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1591100017136">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591098943667" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591100017136" />
     <state width="871" height="229" key="GridCell.Tab.1.bottom" timestamp="1591097978790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -488,27 +489,27 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="586" y="132" key="RollbackChangesDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591025983867" />
-    <state x="213" y="11" key="SettingsEditor" timestamp="1591006849442">
+    <state x="213" y="11" key="SettingsEditor" timestamp="1591099663688">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591006849442" />
+    <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591099663688" />
     <state x="1781" y="9" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005276524" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591093956983">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591099056904">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591093956983" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591099056904" />
     <state x="365" y="124" key="new project wizard" timestamp="1591091905267">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="365" y="124" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591091905267" />
     <state x="101" y="182" key="new project wizard/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005288403" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1591096355281">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1591099446629">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591096355281" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1591094364368">
+    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591099446629" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1591099620619">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591094364368" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591099620619" />
   </component>
 </project>
