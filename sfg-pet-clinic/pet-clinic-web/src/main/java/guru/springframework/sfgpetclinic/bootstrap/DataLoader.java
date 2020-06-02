@@ -6,7 +6,6 @@ import guru.springframework.sfgpetclinic.servises.OwnerService;
 import guru.springframework.sfgpetclinic.servises.VetService;
 import guru.springframework.sfgpetclinic.servises.map.OwnerServiceMap;
 import guru.springframework.sfgpetclinic.servises.map.VetServiceMap;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
