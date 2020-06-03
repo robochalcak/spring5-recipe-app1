@@ -25,16 +25,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Adding static resources. Closes #17">
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Copied templates from Spring Pet Clinic. Closes #18">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/inputField.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/selectField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/petclinic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/responsive.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/less/typography.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/wro/wro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/wro/wro.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -51,7 +54,29 @@
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_BUILD_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_BUILD_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfg-pet-clinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sfg-pet-clinic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +141,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591097443001" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -124,23 +149,24 @@
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates" />
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates\owners" />
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources" />
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates\owners\vets" />
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\sfg-pet-clinic-data" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="guru.springframework.sfgpetclinic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main" />
       <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates" />
       <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\static\resources\" />
       <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\static\resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfgpetclinic.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates\owners" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main\resources\templates\owners\vets" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\sfg-pet-clinic-data" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -157,7 +183,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PetClinicWebApplication">
+  <component name="RunManager" selected="Spring Boot.PetClinicWebApplication">
     <configuration name="PetClinicWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.PetClinicWebApplication" />
       <module name="pet-clinic-web" />
@@ -231,7 +257,8 @@
       <workItem from="1591008747308" duration="16591000" />
       <workItem from="1591097520774" duration="450000" />
       <workItem from="1591098033955" duration="7138000" />
-      <workItem from="1591180289483" duration="1678000" />
+      <workItem from="1591180289483" duration="2414000" />
+      <workItem from="1591191078430" duration="8008000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -408,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591182755789</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Copied templates from Spring Pet Clinic. Closes #18">
+      <created>1591183436275</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591183436275</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +493,8 @@
     <MESSAGE value="Added Vet List and updated controller.Closes #15" />
     <MESSAGE value="Refactored Map Impl to abstract ID generation. Closes #23" />
     <MESSAGE value="Adding static resources. Closes #17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding static resources. Closes #17" />
+    <MESSAGE value="Copied templates from Spring Pet Clinic. Closes #18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copied templates from Spring Pet Clinic. Closes #18" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591026054671">
@@ -494,22 +529,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591049077180" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1591101184265">
+    <state width="1557" height="295" key="GridCell.Tab.0.bottom" timestamp="1591202372088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591101184265" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1591101184265">
+    <state width="1557" height="295" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591202372088" />
+    <state width="1557" height="295" key="GridCell.Tab.0.center" timestamp="1591202372088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591101184265" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1591101184265">
+    <state width="1557" height="295" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591202372088" />
+    <state width="1557" height="295" key="GridCell.Tab.0.left" timestamp="1591202372087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591101184265" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1591101184265">
+    <state width="1557" height="295" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591202372087" />
+    <state width="1557" height="295" key="GridCell.Tab.0.right" timestamp="1591202372088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591101184265" />
+    <state width="1557" height="295" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591202372088" />
     <state width="871" height="229" key="GridCell.Tab.1.bottom" timestamp="1591097978790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -535,10 +570,10 @@
     </state>
     <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591099663688" />
     <state x="1781" y="9" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005276524" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591182758807">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591183439004">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591182758807" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591183439004" />
     <state x="365" y="124" key="new project wizard" timestamp="1591175594573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
