@@ -25,23 +25,53 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Added Vet List and updated controller.Closes #15">
+    <list default="true" id="cc5bb180-a1ed-4eae-ac95-7adf0d27f218" name="Default Changelist" comment="Refactored Map Impl to abstract ID generation. Closes #23">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/config/GreetingServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/config/PropertyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/controllers/ConstructorInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/controllers/GetterInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/controllers/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/controllers/PropertyInjectedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/examplebeans/FakeDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/examplebeans/FakeJmsBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/ConstructorGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/GetterGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/GreetingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/GreetingRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/GreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/GreetingServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/GreetingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/PrimaryGermanGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/PrimaryGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/java/guru/springframework/services/PrimarySpanishGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/resources/application-de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/resources/datasource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/resources/example.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-di-demo/src/main/resources/jms.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/Spring5RecipeAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/AbstractMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/AbstractMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/OwnerServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/OwnerServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/PetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/PetServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/VetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/servises/map/VetServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +246,8 @@
       <workItem from="1591006309129" duration="776000" />
       <workItem from="1591008747308" duration="16591000" />
       <workItem from="1591097520774" duration="450000" />
-      <workItem from="1591098033955" duration="3290000" />
+      <workItem from="1591098033955" duration="7138000" />
+      <workItem from="1591180289483" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1590925836322</created>
@@ -379,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591100264500</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Refactored Map Impl to abstract ID generation. Closes #23">
+      <created>1591101416335</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591101416335</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +466,8 @@
     <MESSAGE value="Adding Spring Config. Closes #22" />
     <MESSAGE value="Added Owners List and updated controller.Closes #16" />
     <MESSAGE value="Added Vet List and updated controller.Closes #15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Vet List and updated controller.Closes #15" />
+    <MESSAGE value="Refactored Map Impl to abstract ID generation. Closes #23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Map Impl to abstract ID generation. Closes #23" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591026054671">
@@ -504,14 +543,14 @@
     </state>
     <state x="213" y="11" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591099663688" />
     <state x="1781" y="9" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005276524" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591100266246">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591101418453">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591100266246" />
-    <state x="365" y="124" key="new project wizard" timestamp="1591091905267">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591101418453" />
+    <state x="365" y="124" key="new project wizard" timestamp="1591175594573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="365" y="124" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591091905267" />
+    <state x="365" y="124" key="new project wizard/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591175594573" />
     <state x="101" y="182" key="new project wizard/0.0.1600.860/1600.0.1360.728@1600.0.1360.728" timestamp="1591005288403" />
     <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1591099446629">
       <screen x="0" y="0" width="1600" height="860" />
