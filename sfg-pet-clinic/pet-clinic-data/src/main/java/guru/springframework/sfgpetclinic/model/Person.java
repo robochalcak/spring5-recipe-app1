@@ -1,7 +1,5 @@
 package guru.springframework.sfgpetclinic.model;
 
-import com.fasterxml.jackson.databind.ser.Serializers;
-
 public class Person extends BaseEntity {
 
     private String firstName;
