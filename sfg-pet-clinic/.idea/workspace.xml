@@ -19,19 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Added Visit Entity. Closes #38">
+    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Implemented repos. Closes #39">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/PetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/PetTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/SpecialtyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/VetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/VisitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexControllers.java" afterDir="false" />
@@ -53,6 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
@@ -66,9 +62,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,7 +127,7 @@
       <updated>1591263132778</updated>
       <workItem from="1591263149761" duration="34927000" />
       <workItem from="1591373348481" duration="27000" />
-      <workItem from="1591432029324" duration="6933000" />
+      <workItem from="1591432029324" duration="7995000" />
     </task>
     <task id="LOCAL-00001" summary="Added layout to index page, closes #19">
       <created>1591283839272</created>
@@ -266,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591443744161</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Implemented repos. Closes #39">
+      <created>1591445603914</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591445603914</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +319,8 @@
     <MESSAGE value="Updated owner with JPA entity mappings. Closes #36" />
     <MESSAGE value="Updated vet to use JPA. Closes #37" />
     <MESSAGE value="Added Visit Entity. Closes #38" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Visit Entity. Closes #38" />
+    <MESSAGE value="Implemented repos. Closes #39" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented repos. Closes #39" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591310903255">
@@ -327,10 +331,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591313743484" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591443498194">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591445921444">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591443498194" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591445921444" />
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591264189236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -347,42 +351,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591373373279" />
-    <state width="1358" height="77" key="GridCell.Tab.0.bottom" timestamp="1591441371714">
+    <state width="1557" height="367" key="GridCell.Tab.0.bottom" timestamp="1591446483790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371714" />
-    <state width="1358" height="77" key="GridCell.Tab.0.center" timestamp="1591441371713">
+    <state width="1557" height="367" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483790" />
+    <state width="1557" height="367" key="GridCell.Tab.0.center" timestamp="1591446483789">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371713" />
-    <state width="1358" height="77" key="GridCell.Tab.0.left" timestamp="1591441371713">
+    <state width="1557" height="367" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483789" />
+    <state width="1557" height="367" key="GridCell.Tab.0.left" timestamp="1591446483789">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371713" />
-    <state width="1358" height="77" key="GridCell.Tab.0.right" timestamp="1591441371713">
+    <state width="1557" height="367" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483789" />
+    <state width="1557" height="367" key="GridCell.Tab.0.right" timestamp="1591446483790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371713" />
-    <state width="1358" height="77" key="GridCell.Tab.1.bottom" timestamp="1591441371714">
+    <state width="1557" height="367" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483790" />
+    <state width="1557" height="367" key="GridCell.Tab.1.bottom" timestamp="1591446483791">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371714" />
-    <state width="1358" height="77" key="GridCell.Tab.1.center" timestamp="1591441371714">
+    <state width="1557" height="367" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483791" />
+    <state width="1557" height="367" key="GridCell.Tab.1.center" timestamp="1591446483790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371714" />
-    <state width="1358" height="77" key="GridCell.Tab.1.left" timestamp="1591441371714">
+    <state width="1557" height="367" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483790" />
+    <state width="1557" height="367" key="GridCell.Tab.1.left" timestamp="1591446483790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371714" />
-    <state width="1358" height="77" key="GridCell.Tab.1.right" timestamp="1591441371714">
+    <state width="1557" height="367" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483790" />
+    <state width="1557" height="367" key="GridCell.Tab.1.right" timestamp="1591446483790">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1358" height="77" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371714" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591443745472">
+    <state width="1557" height="367" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591446483790" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591445605174">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591443745472" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591445605174" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
