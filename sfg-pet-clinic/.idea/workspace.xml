@@ -19,14 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Added PetType SD JPA Service closes #42">
+    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Added Pet SD JPA Service closes #43">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/PetSDJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialtySDJpaService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexControllers.java" afterDir="false" />
@@ -47,6 +47,10 @@
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetMapService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
@@ -125,7 +129,7 @@
       <updated>1591263132778</updated>
       <workItem from="1591263149761" duration="34927000" />
       <workItem from="1591373348481" duration="27000" />
-      <workItem from="1591432029324" duration="10553000" />
+      <workItem from="1591432029324" duration="11035000" />
     </task>
     <task id="LOCAL-00001" summary="Added layout to index page, closes #19">
       <created>1591283839272</created>
@@ -288,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591449867072</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added Pet SD JPA Service closes #43">
+      <created>1591450173146</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591450173146</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +353,8 @@
     <MESSAGE value="Added spring data jpa service for owners. closes #40" />
     <MESSAGE value="Added spring data jpa service for vets. closes #41" />
     <MESSAGE value="Added PetType SD JPA Service closes #42" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added PetType SD JPA Service closes #42" />
+    <MESSAGE value="Added Pet SD JPA Service closes #43" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Pet SD JPA Service closes #43" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591310903255">
@@ -353,10 +365,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591313743484" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591450000682">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591450400465">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591450000682" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591450400465" />
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591264189236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -405,10 +417,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="97" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591449869244">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591450174358">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591449869244" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591450174358" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
