@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Added Specialty SD JPA Service closes #44">
+    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Implemented Map impl for Visit Service. Closes #46">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/VisitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VisitMapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/VisitSDJpaService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexControllers.java" afterDir="false" />
@@ -49,6 +48,8 @@
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VisitMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VisitMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
@@ -99,11 +100,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfgpetclinic.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,7 +128,7 @@
       <updated>1591263132778</updated>
       <workItem from="1591263149761" duration="34927000" />
       <workItem from="1591373348481" duration="27000" />
-      <workItem from="1591432029324" duration="12205000" />
+      <workItem from="1591432029324" duration="14207000" />
     </task>
     <task id="LOCAL-00001" summary="Added layout to index page, closes #19">
       <created>1591283839272</created>
@@ -304,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591450653783</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Implemented Map impl for Visit Service. Closes #46">
+      <created>1591455852256</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591455852256</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +368,8 @@
     <MESSAGE value="Added PetType SD JPA Service closes #42" />
     <MESSAGE value="Added Pet SD JPA Service closes #43" />
     <MESSAGE value="Added Specialty SD JPA Service closes #44" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Specialty SD JPA Service closes #44" />
+    <MESSAGE value="Implemented Map impl for Visit Service. Closes #46" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Map impl for Visit Service. Closes #46" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591310903255">
@@ -371,18 +380,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591313743484" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591455343510">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591456041621">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591455343510" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591456041621" />
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591264189236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591264189236" />
-    <state x="583" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591264100856">
+    <state x="583" y="295" width="470" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591457590928">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="583" y="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591264100856" />
+    <state x="583" y="295" width="470" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457590928" />
     <state x="596" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1591264152076">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -391,42 +400,62 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591373373279" />
-    <state width="1557" height="97" key="GridCell.Tab.0.bottom" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom" timestamp="1591457571078">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.0.center" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457571078" />
+    <state width="1557" height="276" key="GridCell.Tab.0.center" timestamp="1591457571078">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.0.left" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457571078" />
+    <state width="1557" height="276" key="GridCell.Tab.0.left" timestamp="1591457571078">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.0.right" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457571078" />
+    <state width="1557" height="276" key="GridCell.Tab.0.right" timestamp="1591457571078">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.1.bottom" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457571078" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1591457584690">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.1.center" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457584690" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1591457584690">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.1.left" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457584690" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1591457584690">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state width="1557" height="97" key="GridCell.Tab.1.right" timestamp="1591448286692">
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457584690" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1591457584690">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="97" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591448286692" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591450655170">
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457584690" />
+    <state width="1557" height="276" key="GridCell.Tab.2.bottom" timestamp="1591457570729">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591450655170" />
+    <state width="1557" height="276" key="GridCell.Tab.2.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457570729" />
+    <state width="1557" height="276" key="GridCell.Tab.2.center" timestamp="1591457570729">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.2.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457570729" />
+    <state width="1557" height="276" key="GridCell.Tab.2.left" timestamp="1591457570728">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.2.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457570728" />
+    <state width="1557" height="276" key="GridCell.Tab.2.right" timestamp="1591457570729">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.2.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457570729" />
+    <state x="380" y="165" key="IDE.errors.dialog" timestamp="1591457194855">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="165" key="IDE.errors.dialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457194855" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591455853760">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591455853760" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -443,5 +472,36 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441410644" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
