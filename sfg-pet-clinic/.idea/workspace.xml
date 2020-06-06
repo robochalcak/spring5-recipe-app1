@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Updated owner with JPA entity mappings. Closes #36">
+    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Updated vet to use JPA. Closes #37">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
@@ -47,8 +47,8 @@
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Speciality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Visit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
@@ -127,7 +127,7 @@
       <updated>1591263132778</updated>
       <workItem from="1591263149761" duration="34927000" />
       <workItem from="1591373348481" duration="27000" />
-      <workItem from="1591432029324" duration="4957000" />
+      <workItem from="1591432029324" duration="5836000" />
     </task>
     <task id="LOCAL-00001" summary="Added layout to index page, closes #19">
       <created>1591283839272</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591442391235</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated vet to use JPA. Closes #37">
+      <created>1591442883770</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591442883770</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +303,8 @@
     <MESSAGE value="Fixed Broken Links. Closes  #45" />
     <MESSAGE value="Updated base entity with JPA annotations. Close #35" />
     <MESSAGE value="Updated owner with JPA entity mappings. Closes #36" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated owner with JPA entity mappings. Closes #36" />
+    <MESSAGE value="Updated vet to use JPA. Closes #37" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated vet to use JPA. Closes #37" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="293" key="#Notifications" timestamp="1591310903255">
@@ -307,10 +315,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591313743484" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591347956101">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591443498194">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591347956101" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591443498194" />
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591264189236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -359,10 +367,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1358" height="77" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591441371714" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591442392831">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591442885852">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591442392831" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591442885852" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
