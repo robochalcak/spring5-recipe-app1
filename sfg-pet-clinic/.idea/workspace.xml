@@ -13,30 +13,23 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:robochalcak@gmail.com" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:robo" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:robo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:robo/robo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Added Project Lombok to project, closes #51">
-      <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/SfgPetClinicApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Upgraded to Junit 5, closes #4">
+      <changelist_data name="robochalcak" email="50630008+robochalcak@users.noreply.github.com" />
+      <change afterPath="$PROJECT_DIR$/../sfg-pet-clinicxxxxx/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +48,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="robochalcak &lt;50630008+robochalcak@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="97ea29580e0a8d42f5fe5b5cea1e5dca94c6d1eb" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4a4157de-8477-4629-ab8f-32684eafdcf6" />
   </component>
   <component name="ProjectId" id="1cqjgqygYjvPK1NfYpTBIdni7TF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,7 +89,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -156,6 +163,8 @@
         <item itemvalue="JUnit.SfgPetClinicApplicationTests.contextLoad" />
         <item itemvalue="JUnit.SfgPetClinicApplicationTests" />
         <item itemvalue="Application.SfgPetClinicApplication" />
+        <item itemvalue="JUnit.SfgPetClinicApplicationTests.contextLoad" />
+        <item itemvalue="JUnit.SfgPetClinicApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591612999794</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Upgraded to Junit 5, closes #4">
+      <created>1591704296755</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591704296755</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,11 +408,83 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:H:/JAVA/Java-Spring/sfg-pet-clinic" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:H:/JAVA/Java-Spring/sfg-pet-clinic" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="robo/robo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="2" value="TOOL_WINDOW" />
+        <entry key="3" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -416,7 +504,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added layout. Closes #20" />
     <MESSAGE value="Added layout to vets page. Closes #21" />
     <MESSAGE value="Added visits, updated owner with pet relationship. Closes #26" />
     <MESSAGE value="Added specialities, added to vet. Closes #27" />
@@ -441,7 +528,8 @@
     <MESSAGE value="Implement JPA Visit Service, added loader data. Closes #47" />
     <MESSAGE value="Updated profiles for JPA service, tested active profiles. Closes #48" />
     <MESSAGE value="Added Project Lombok to project, closes #51" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Project Lombok to project, closes #51" />
+    <MESSAGE value="Upgraded to Junit 5, closes #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgraded to Junit 5, closes #4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
@@ -484,6 +572,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591546097955" />
+    <state x="661" y="332" key="Github.Dialog.Accounts.Choose" timestamp="1591705132333">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="661" y="332" key="Github.Dialog.Accounts.Choose/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705132333" />
     <state width="1557" height="102" key="GridCell.Tab.0.bottom" timestamp="1591701554778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -536,14 +628,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="380" y="165" key="IDE.errors.dialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457194855" />
-    <state x="301" y="75" key="SettingsEditor" timestamp="1591611721082">
+    <state x="296" y="85" key="SettingsEditor" timestamp="1591705759172">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="75" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591611721082" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591613002115">
+    <state x="296" y="85" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705759172" />
+    <state x="564" y="134" key="VCS.ChangeListViewerDialog" timestamp="1591705266706">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591613002115" />
+    <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705266706" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591704405883">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591704405883" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -552,6 +648,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="180" key="extract.method.dialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591349435887" />
+    <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog" timestamp="1591705116060">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705116060" />
+    <state x="517" y="311" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591705354297">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="517" y="311" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705354297" />
+    <state x="614" y="324" key="git4idea.ui.GitResetDialog" timestamp="1591705267715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="614" y="324" key="git4idea.ui.GitResetDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705267715" />
     <state x="182" y="91" key="new project wizard" timestamp="1591264013507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
