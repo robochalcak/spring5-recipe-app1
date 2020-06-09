@@ -26,11 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Upgraded to Junit 5, closes #4">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/test/java/guru/springframework/sfgpetclinic/services/map/OwnerMapServiceTest.java" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Added tests. Closes #49">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/test/java/guru/springframework/sfgpetclinic/springdatajpa/OwnerSDJpaServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +99,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.springdatajpa" />
       <recent name="guru.springframework.sfgpetclinic.services.map" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -117,81 +119,81 @@
       <recent name="guru.springframework.sfgpetclinic.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OwnerMapServiceTest">
-    <configuration name="OwnerMapServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OwnerSDJpaServiceTest">
+    <configuration name="OwnerSDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.map.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.springdatajpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.map" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.map.OwnerMapServiceTest" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.springdatajpa.OwnerSDJpaServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerSDJpaServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.map.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.springdatajpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.map" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.map.OwnerMapServiceTest" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.springdatajpa.OwnerSDJpaServiceTest" />
       <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest.findByLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerSDJpaServiceTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.map.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.springdatajpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.map" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.map.OwnerMapServiceTest" />
-      <option name="METHOD_NAME" value="findByLastName" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.springdatajpa.OwnerSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="deleteById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest.findByLastNameNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerSDJpaServiceTest.findByIdNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.map.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.springdatajpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.map" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.map.OwnerMapServiceTest" />
-      <option name="METHOD_NAME" value="findByLastNameNotFound" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.springdatajpa.OwnerSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="findByIdNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest.saveNoId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerSDJpaServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-data" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.map.*" />
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.springdatajpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.map" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.map.OwnerMapServiceTest" />
-      <option name="METHOD_NAME" value="saveNoId" />
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.springdatajpa.OwnerSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OwnerMapServiceTest" />
-        <item itemvalue="JUnit.OwnerMapServiceTest.findByLastName" />
-        <item itemvalue="JUnit.OwnerMapServiceTest.findByLastNameNotFound" />
-        <item itemvalue="JUnit.OwnerMapServiceTest.delete" />
-        <item itemvalue="JUnit.OwnerMapServiceTest.saveNoId" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest.delete" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest.deleteById" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest.findByIdNotFound" />
+        <item itemvalue="JUnit.OwnerSDJpaServiceTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591705798990</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added tests. Closes #49">
+      <created>1591709745325</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591709745325</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added layout to vets page. Closes #21" />
     <MESSAGE value="Added visits, updated owner with pet relationship. Closes #26" />
     <MESSAGE value="Added specialities, added to vet. Closes #27" />
     <MESSAGE value="Added properties. Closes #28" />
@@ -582,13 +590,18 @@
     <MESSAGE value="Updated profiles for JPA service, tested active profiles. Closes #48" />
     <MESSAGE value="Added Project Lombok to project, closes #51" />
     <MESSAGE value="Upgraded to Junit 5, closes #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded to Junit 5, closes #4" />
+    <MESSAGE value="Added tests. Closes #49" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests. Closes #49" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="699" y="321" key="#Assign_Data_Sources/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591483813345" />
+    <state x="566" y="0" key="#Auto_Import" timestamp="1591714284724">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="566" y="0" key="#Auto_Import/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591714284724" />
     <state x="685" y="293" key="#Notifications" timestamp="1591310903255">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -629,38 +642,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="661" y="332" key="Github.Dialog.Accounts.Choose/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705132333" />
-    <state width="1557" height="336" key="GridCell.Tab.0.bottom" timestamp="1591709192410">
+    <state width="1557" height="162" key="GridCell.Tab.0.bottom" timestamp="1591715420624">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="336" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591709192410" />
-    <state width="1557" height="336" key="GridCell.Tab.0.center" timestamp="1591709192409">
+    <state width="1557" height="162" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591715420624" />
+    <state width="1557" height="162" key="GridCell.Tab.0.center" timestamp="1591715420624">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="336" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591709192409" />
-    <state width="1557" height="336" key="GridCell.Tab.0.left" timestamp="1591709192409">
+    <state width="1557" height="162" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591715420624" />
+    <state width="1557" height="162" key="GridCell.Tab.0.left" timestamp="1591715420624">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="336" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591709192409" />
-    <state width="1557" height="336" key="GridCell.Tab.0.right" timestamp="1591709192409">
+    <state width="1557" height="162" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591715420624" />
+    <state width="1557" height="162" key="GridCell.Tab.0.right" timestamp="1591715420624">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="336" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591709192409" />
-    <state width="1557" height="299" key="GridCell.Tab.1.bottom" timestamp="1591707127939">
+    <state width="1557" height="162" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591715420624" />
+    <state width="1557" height="162" key="GridCell.Tab.1.bottom" timestamp="1591713820448">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591707127939" />
-    <state width="1557" height="299" key="GridCell.Tab.1.center" timestamp="1591707127938">
+    <state width="1557" height="162" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591713820448" />
+    <state width="1557" height="162" key="GridCell.Tab.1.center" timestamp="1591713820447">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591707127938" />
-    <state width="1557" height="299" key="GridCell.Tab.1.left" timestamp="1591707127938">
+    <state width="1557" height="162" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591713820447" />
+    <state width="1557" height="162" key="GridCell.Tab.1.left" timestamp="1591713820447">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591707127938" />
-    <state width="1557" height="299" key="GridCell.Tab.1.right" timestamp="1591707127938">
+    <state width="1557" height="162" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591713820447" />
+    <state width="1557" height="162" key="GridCell.Tab.1.right" timestamp="1591713820448">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591707127938" />
+    <state width="1557" height="162" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591713820448" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -689,18 +702,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705266706" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591705830154">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591709748003">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705830154" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591709748003" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="616" y="208" key="chooseDestDirectoryDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591460351573" />
-    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591706687914">
+    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591712506601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591706687914" />
+    <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591712506601" />
     <state x="530" y="180" key="extract.method.dialog" timestamp="1591349435887">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

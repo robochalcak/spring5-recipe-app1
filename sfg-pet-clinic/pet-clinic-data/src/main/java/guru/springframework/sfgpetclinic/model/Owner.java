@@ -3,6 +3,7 @@ package guru.springframework.sfgpetclinic.model;
 import lombok.*;
 
 import javax.persistence.*;
+import java.net.Proxy;
 import java.util.HashSet;
 import java.util.Set;
 
