@@ -19,47 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Updated profiles for JPA service, tested active profiles. Closes #48">
+    <list default="true" id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="Added Project Lombok to project, closes #51">
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingRepositoryImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/GreetingServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGermanGreetingService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimarySpanishGreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexControllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/domain/Difficulty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/domain/UnitOfMeasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/repositories/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/repositories/RecipeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/repositories/UnitOfMeasureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/services/RecipeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/SfgPetClinicApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/I18nSpanishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sfg-di/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Speciality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Visit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetTypeMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetTypeMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialityMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialityMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/Spring5RecipeAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5-recipe-app/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,12 +56,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="73" />
-    <option name="y" value="137" />
-    <option name="width" value="1374" />
-    <option name="height" value="610" />
   </component>
   <component name="ProjectId" id="1cqjgqygYjvPK1NfYpTBIdni7TF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -128,7 +99,7 @@
       <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SfgPetClinicApplication">
+  <component name="RunManager" selected="JUnit.SfgPetClinicApplicationTests.contextLoad">
     <configuration name="SfgPetClinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
       <module name="pet-clinic-web" />
@@ -142,6 +113,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SfgPetClinicApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SfgPetClinicApplicationTests.contextLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SfgPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pet-clinic-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
@@ -151,6 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SfgPetClinicApplicationTests.contextLoad" />
+        <item itemvalue="JUnit.SfgPetClinicApplicationTests" />
         <item itemvalue="Application.SfgPetClinicApplication" />
       </list>
     </recent_temporary>
@@ -173,7 +177,8 @@
       <workItem from="1591528016583" duration="2625000" />
       <workItem from="1591530695462" duration="13724000" />
       <workItem from="1591546076054" duration="148000" />
-      <workItem from="1591611456491" duration="1246000" />
+      <workItem from="1591611456491" duration="4616000" />
+      <workItem from="1591697571619" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="Added layout to index page, closes #19">
       <created>1591283839272</created>
@@ -371,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591542731857</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added Project Lombok to project, closes #51">
+      <created>1591612999794</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591612999794</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +416,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixes i18n. Closes #25" />
     <MESSAGE value="Added layout. Closes #20" />
     <MESSAGE value="Added layout to vets page. Closes #21" />
     <MESSAGE value="Added visits, updated owner with pet relationship. Closes #26" />
@@ -429,7 +440,8 @@
     <MESSAGE value="Implemented Map impl for Visit Service. Closes #46" />
     <MESSAGE value="Implement JPA Visit Service, added loader data. Closes #47" />
     <MESSAGE value="Updated profiles for JPA service, tested active profiles. Closes #48" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated profiles for JPA service, tested active profiles. Closes #48" />
+    <MESSAGE value="Added Project Lombok to project, closes #51" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Project Lombok to project, closes #51" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
@@ -440,10 +452,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="685" y="293" key="#Notifications/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591310903255" />
-    <state x="280" y="4" key="#Project_Structure" timestamp="1591525003361">
+    <state x="280" y="4" key="#Project_Structure" timestamp="1591698843064">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591525003361" />
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591698843064" />
     <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591541488538">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -472,22 +484,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591546097955" />
-    <state width="1557" height="199" key="GridCell.Tab.0.bottom" timestamp="1591612629895">
+    <state width="1557" height="102" key="GridCell.Tab.0.bottom" timestamp="1591701554778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591612629895" />
-    <state width="1557" height="199" key="GridCell.Tab.0.center" timestamp="1591612629895">
+    <state width="1557" height="102" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591701554778" />
+    <state width="1557" height="102" key="GridCell.Tab.0.center" timestamp="1591701554778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591612629895" />
-    <state width="1557" height="199" key="GridCell.Tab.0.left" timestamp="1591612629894">
+    <state width="1557" height="102" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591701554778" />
+    <state width="1557" height="102" key="GridCell.Tab.0.left" timestamp="1591701554778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591612629894" />
-    <state width="1557" height="199" key="GridCell.Tab.0.right" timestamp="1591612629895">
+    <state width="1557" height="102" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591701554778" />
+    <state width="1557" height="102" key="GridCell.Tab.0.right" timestamp="1591701554778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="199" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591612629895" />
+    <state width="1557" height="102" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591701554778" />
     <state width="1557" height="146" key="GridCell.Tab.1.bottom" timestamp="1591546010354">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -528,10 +540,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591611721082" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591542734509">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591613002115">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591542734509" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591613002115" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -552,16 +564,5 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591535076144" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/SfgPetClinicApplication.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
