@@ -1,0 +1,1 @@
+[![CircleCI](https://circleci.com/gh/robochalcak/sfg-pet-clinic/tree/circleci-project-setup.svg?style=svg)](https://circleci.com/gh/robochalcak/sfg-pet-clinic/tree/circleci-project-setup)
