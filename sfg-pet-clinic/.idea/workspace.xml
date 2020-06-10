@@ -4,32 +4,40 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:robo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:robochalcak" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:robochalcak@gmail.com" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:robo" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:robo/robo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Removing old junit surefire plugin, now provided by default. Closes #61">
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Added displayed Owner record (HTML) closes #53">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/owners/ownerDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwnerForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownerDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownersList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
+    <list id="f3b6d591-cb25-4f05-b477-e863920d67c5" name="Added displayed Owner record (HTML) closes #53" comment="Added displayed Owner record (HTML) closes #53" />
+    <list id="82ce2d80-1be3-47a0-81d8-a9ee4ffbb13d" name="Revert &quot;Added displayed Owner record (HTML) closes #53&quot;" comment="Revert &quot;Added displayed Owner record (HTML) closes #53&quot;&#10;&#10;This reverts commit 665e2889" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +47,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,6 +103,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.model" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="guru.springframework.sfgpetclinic.controllers" />
       <recent name="guru.springframework.sfgpetclinic.springdatajpa" />
@@ -103,18 +114,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic" />
-      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-web\src\main" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="guru.springframework.sfgpetclinic.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinic" />
+      <recent name="H:\JAVA\Java-Spring\sfg-pet-clinic" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SfgPetClinicApplication">
@@ -562,6 +570,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -622,16 +640,10 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="robo/robo" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
               </option>
             </State>
           </value>
@@ -729,6 +741,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="547" y="274" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591531477051" />
+    <state width="431" height="442" key="Diff.GoToChangePopup" timestamp="1591973419936">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="431" height="442" key="Diff.GoToChangePopup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973419936" />
+    <state x="793" y="0" width="814" height="437" key="DiffContextDialog" timestamp="1591973630975">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="793" y="0" width="814" height="437" key="DiffContextDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973630975" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1591546097955">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -737,38 +757,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="661" y="332" key="Github.Dialog.Accounts.Choose/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705132333" />
-    <state width="1557" height="270" key="GridCell.Tab.0.bottom" timestamp="1591784416795">
+    <state width="1557" height="131" key="GridCell.Tab.0.bottom" timestamp="1591974174849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416795" />
-    <state width="1557" height="270" key="GridCell.Tab.0.center" timestamp="1591784416795">
+    <state width="1557" height="131" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
+    <state width="1557" height="131" key="GridCell.Tab.0.center" timestamp="1591974174849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416795" />
-    <state width="1557" height="270" key="GridCell.Tab.0.left" timestamp="1591784416794">
+    <state width="1557" height="131" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
+    <state width="1557" height="131" key="GridCell.Tab.0.left" timestamp="1591974174848">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416794" />
-    <state width="1557" height="270" key="GridCell.Tab.0.right" timestamp="1591784416795">
+    <state width="1557" height="131" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174848" />
+    <state width="1557" height="131" key="GridCell.Tab.0.right" timestamp="1591974174849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416795" />
-    <state width="1557" height="161" key="GridCell.Tab.1.bottom" timestamp="1591783951863">
+    <state width="1557" height="131" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
+    <state width="1557" height="131" key="GridCell.Tab.1.bottom" timestamp="1591974174850">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="161" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591783951863" />
-    <state width="1557" height="161" key="GridCell.Tab.1.center" timestamp="1591783951862">
+    <state width="1557" height="131" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174850" />
+    <state width="1557" height="131" key="GridCell.Tab.1.center" timestamp="1591974174850">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="161" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591783951862" />
-    <state width="1557" height="161" key="GridCell.Tab.1.left" timestamp="1591783951862">
+    <state width="1557" height="131" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174850" />
+    <state width="1557" height="131" key="GridCell.Tab.1.left" timestamp="1591974174849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="161" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591783951862" />
-    <state width="1557" height="161" key="GridCell.Tab.1.right" timestamp="1591783951863">
+    <state width="1557" height="131" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
+    <state width="1557" height="131" key="GridCell.Tab.1.right" timestamp="1591974174850">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="161" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591783951863" />
+    <state width="1557" height="131" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174850" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -789,6 +809,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="380" y="165" key="IDE.errors.dialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591457194855" />
+    <state x="546" y="150" key="RollbackChangesDialog" timestamp="1591973567180">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="546" y="150" key="RollbackChangesDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973567180" />
     <state x="296" y="85" key="SettingsEditor" timestamp="1591705759172">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -805,6 +829,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="616" y="208" key="chooseDestDirectoryDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591460351573" />
+    <state x="1722" y="59" width="1204" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1591973975061">
+      <screen x="1600" y="0" width="1360" height="728" />
+    </state>
+    <state x="1722" y="59" width="1204" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973975061" />
+    <state x="1499" y="-19" width="1416" height="676" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591973630975">
+      <screen x="1600" y="0" width="1360" height="728" />
+    </state>
+    <state x="1499" y="-19" width="1416" height="676" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973630975" />
+    <state x="609" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591973038706">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973038706" />
     <state x="529" y="192" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591717208177">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -813,6 +849,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="180" key="extract.method.dialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591349435887" />
+    <state x="601" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1591973027707">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="601" y="218" key="git4idea.merge.GitMergeDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973027707" />
     <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog" timestamp="1591705116060">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -825,6 +865,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="614" y="324" key="git4idea.ui.GitResetDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705267715" />
+    <state x="655" y="329" key="git4idea.ui.GitStashDialog" timestamp="1591973049922">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="655" y="329" key="git4idea.ui.GitStashDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973049922" />
+    <state x="650" y="283" key="git4idea.ui.GitUnstashDialog" timestamp="1591972938520">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="650" y="283" key="git4idea.ui.GitUnstashDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591972938520" />
     <state x="182" y="91" key="new project wizard" timestamp="1591264013507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
