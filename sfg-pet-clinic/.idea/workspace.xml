@@ -26,10 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Adding budge. #60">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Removing old junit surefire plugin, now provided by default. Closes #61">
       <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -551,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591782882630</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Removing old junit surefire plugin, now provided by default. Closes #61">
+      <created>1591784620283</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1591784620283</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +661,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented repos. Closes #39" />
     <MESSAGE value="Added spring data jpa service for owners. closes #40" />
     <MESSAGE value="Added spring data jpa service for vets. closes #41" />
     <MESSAGE value="Added PetType SD JPA Service closes #42" />
@@ -681,7 +685,8 @@
     <MESSAGE value=" fixed config.yml for circleCi 5" />
     <MESSAGE value=" fixed config.yml for circleCi 6" />
     <MESSAGE value="Adding budge. #60" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding budge. #60" />
+    <MESSAGE value="Removing old junit surefire plugin, now provided by default. Closes #61" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing old junit surefire plugin, now provided by default. Closes #61" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
@@ -732,22 +737,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="661" y="332" key="Github.Dialog.Accounts.Choose/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705132333" />
-    <state width="1557" height="270" key="GridCell.Tab.0.bottom" timestamp="1591784401485">
+    <state width="1557" height="270" key="GridCell.Tab.0.bottom" timestamp="1591784416795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784401485" />
-    <state width="1557" height="270" key="GridCell.Tab.0.center" timestamp="1591784401485">
+    <state width="1557" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416795" />
+    <state width="1557" height="270" key="GridCell.Tab.0.center" timestamp="1591784416795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784401485" />
-    <state width="1557" height="270" key="GridCell.Tab.0.left" timestamp="1591784401485">
+    <state width="1557" height="270" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416795" />
+    <state width="1557" height="270" key="GridCell.Tab.0.left" timestamp="1591784416794">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784401485" />
-    <state width="1557" height="270" key="GridCell.Tab.0.right" timestamp="1591784401485">
+    <state width="1557" height="270" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416794" />
+    <state width="1557" height="270" key="GridCell.Tab.0.right" timestamp="1591784416795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="270" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784401485" />
+    <state width="1557" height="270" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784416795" />
     <state width="1557" height="161" key="GridCell.Tab.1.bottom" timestamp="1591783951863">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -792,10 +797,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705266706" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591782894673">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591784625226">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591782894673" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784625226" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
