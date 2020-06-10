@@ -26,8 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment=" fixed config.yml for circleCi 4">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment=" fixed config.yml for circleCi 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
@@ -528,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591780106031</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary=" fixed config.yml for circleCi 5">
+      <created>1591781720760</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1591781720760</updated>
+    </task>
+    <task id="LOCAL-00044" summary=" fixed config.yml for circleCi 6">
+      <created>1591782475907</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1591782475907</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,8 +646,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated owner with JPA entity mappings. Closes #36" />
-    <MESSAGE value="Updated vet to use JPA. Closes #37" />
     <MESSAGE value="Added Visit Entity. Closes #38" />
     <MESSAGE value="Implemented repos. Closes #39" />
     <MESSAGE value="Added spring data jpa service for owners. closes #40" />
@@ -658,7 +669,9 @@
     <MESSAGE value=" fixed config.yml for circleCi 2  #59" />
     <MESSAGE value=" fixed config.yml for circleCi 3  #59" />
     <MESSAGE value=" fixed config.yml for circleCi 4" />
-    <option name="LAST_COMMIT_MESSAGE" value=" fixed config.yml for circleCi 4" />
+    <MESSAGE value=" fixed config.yml for circleCi 5" />
+    <MESSAGE value=" fixed config.yml for circleCi 6" />
+    <option name="LAST_COMMIT_MESSAGE" value=" fixed config.yml for circleCi 6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
@@ -769,10 +782,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705266706" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591780115516">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591782478105">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591780115516" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591782478105" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
