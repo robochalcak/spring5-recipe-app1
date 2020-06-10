@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment=" fixed config.yml for circleCi 2  #59">
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment=" fixed config.yml for circleCi 3  #59">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
@@ -514,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591776834289</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary=" fixed config.yml for circleCi 3  #59">
+      <created>1591777583035</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1591777583035</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed Broken Links. Closes  #45" />
     <MESSAGE value="Updated base entity with JPA annotations. Close #35" />
     <MESSAGE value="Updated owner with JPA entity mappings. Closes #36" />
     <MESSAGE value="Updated vet to use JPA. Closes #37" />
@@ -644,7 +650,8 @@
     <MESSAGE value="Updated CircleCI configuration fixed syntax" />
     <MESSAGE value=" fixed config.yml for circleCi" />
     <MESSAGE value=" fixed config.yml for circleCi 2  #59" />
-    <option name="LAST_COMMIT_MESSAGE" value=" fixed config.yml for circleCi 2  #59" />
+    <MESSAGE value=" fixed config.yml for circleCi 3  #59" />
+    <option name="LAST_COMMIT_MESSAGE" value=" fixed config.yml for circleCi 3  #59" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
@@ -755,10 +762,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705266706" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591776849197">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591777588071">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591776849197" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591777588071" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
