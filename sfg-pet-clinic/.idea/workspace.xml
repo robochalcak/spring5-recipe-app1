@@ -25,12 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Added displayed Owner record (HTML) closes #53">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/owners/ownerDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/createOrUpdateOwnerForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/findOwners.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownerDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownersList.html" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Implement Owner displaying record. Closes #53">
+      <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
+    </list>
+    <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
+    <list id="cef5b529-0fd4-4509-b395-0a997ba6c093" name="Implement Owner displaying record. Closes #53" comment="Implement Owner displaying record. Closes #53">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
@@ -62,7 +61,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="97ea29580e0a8d42f5fe5b5cea1e5dca94c6d1eb" />
+        <entry key="$PROJECT_DIR$/.." value="d81042793c23dc920a1929e7175e55b5fe36d47a" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -226,7 +225,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b126661c-5adb-4c34-9584-1e47d607e033" name="Default Changelist" comment="" />
+      <changelist id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Implement Owner displaying record. Closes #53" />
       <created>1591263132778</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -241,34 +240,7 @@
       <workItem from="1591546076054" duration="148000" />
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added layout to index page, closes #19">
-      <created>1591283839272</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1591283839273</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added layout to index page, closes #19">
-      <created>1591283990868</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591283990868</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Fixes i18n. Closes #25">
-      <created>1591287082578</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591287082578</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added layout. Closes #20">
-      <created>1591289005904</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591289005904</updated>
+      <workItem from="1591975861259" duration="336000" />
     </task>
     <task id="LOCAL-00005" summary="Added layout to vets page. Closes #21">
       <created>1591289456138</created>
@@ -564,7 +536,56 @@
       <option name="project" value="LOCAL" />
       <updated>1591784620283</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Implement Owner displaying record. Closes #53">
+      <created>1591974523184</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1591974523184</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fixup! Implement Owner displaying record. Closes #53">
+      <created>1591974799963</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1591974799963</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Implement Owner displaying record. Closes #53">
+      <created>1591975150964</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1591975150964</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fixup! Implement Owner displaying record. Closes #53">
+      <created>1591975321701</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1591975321703</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Implement Owner displaying record. Closes #53">
+      <created>1591975473457</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1591975473458</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Implement Owner displaying record. Closes #53">
+      <created>1591975522551</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1591975522551</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Implement Owner displaying record. Closes #53">
+      <created>1591976007051</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1591976007067</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,13 +660,7 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="TEXT_FILTER_SETTINGS">
-                <TextFilterSettings>
-                  <option name="MATCH_CASE" value="true" />
-                </TextFilterSettings>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -709,6 +724,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="566" y="0" key="#Auto_Import/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591714284724" />
+    <state x="532" y="103" key="#Deployment" timestamp="1591976102148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="532" y="103" key="#Deployment/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976102148" />
     <state x="685" y="293" key="#Notifications" timestamp="1591310903255">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -741,11 +760,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="547" y="274" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591531477051" />
-    <state width="431" height="442" key="Diff.GoToChangePopup" timestamp="1591973419936">
+    <state x="521" y="29" key="CommitChangelistDialog2" timestamp="1591976104169">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="431" height="442" key="Diff.GoToChangePopup/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973419936" />
-    <state x="793" y="0" width="814" height="437" key="DiffContextDialog" timestamp="1591973630975">
+    <state x="521" y="29" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976104169" />
+    <state x="1705" y="-22" width="1416" height="676" maximized="true" key="DiffContextDialog" timestamp="1591975039553">
+      <screen x="1600" y="0" width="1360" height="728" />
+    </state>
+    <state x="1705" y="-22" width="1416" height="676" maximized="true" key="DiffContextDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975039553" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1591975127909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="793" y="0" width="814" height="437" key="DiffContextDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973630975" />
@@ -817,14 +840,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="296" y="85" key="SettingsEditor/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705759172" />
-    <state x="564" y="134" key="VCS.ChangeListViewerDialog" timestamp="1591705266706">
+    <state x="564" y="134" key="VCS.ChangeListViewerDialog" timestamp="1591975584983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705266706" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591784625226">
+    <state x="564" y="134" key="VCS.ChangeListViewerDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975584983" />
+    <state x="647" y="344" key="VCS.ChangelistChooser" timestamp="1591976054371">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591784625226" />
+    <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591976195085">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976195085" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -849,15 +876,19 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="180" key="extract.method.dialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591349435887" />
-    <state x="601" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1591973027707">
+    <state x="139" y="143" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591976154977">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="601" y="218" key="git4idea.merge.GitMergeDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973027707" />
-    <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog" timestamp="1591705116060">
+    <state x="139" y="143" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976154977" />
+    <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog" timestamp="1591975565799">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705116060" />
-    <state x="517" y="311" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591705354297">
+    <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975565799" />
+    <state x="517" y="311" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591976039726">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="517" y="311" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976039726" />
+    <state x="614" y="324" key="git4idea.ui.GitResetDialog" timestamp="1591975587904">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="517" y="311" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705354297" />
