@@ -2,6 +2,7 @@ package guru.springframework.domain;
 
 import lombok.Getter;
 import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -12,8 +13,8 @@ import java.util.Set;
 public class Recipe {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Long id;
 
     private String description;
     private Integer prepTime;

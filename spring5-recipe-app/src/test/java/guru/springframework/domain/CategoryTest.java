@@ -1,38 +1,36 @@
 package guru.springframework.domain;
-
 import org.junit.Before;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {Category.class})
-class CategoryTest {
+import static org.junit.Assert.assertEquals;
 
-    Category category;// = new Category();
+/**
+ * Created by jt on 6/17/17.
+ */
+public class CategoryTest {
 
-    @BeforeEach
+    Category category;
+
+    @Before
     public void setUp(){
         category = new Category();
     }
 
     @Test
-    public void getId() {
-        Long idValue = 4l;
+    public void getId() throws Exception {
+        Long idValue = 4L;
+
         category.setId(idValue);
+
         assertEquals(idValue, category.getId());
     }
 
     @Test
-    void getDescription() {
+    public void getDescription() throws Exception {
     }
 
     @Test
-    void getRecipes() {
+    public void getRecipes() throws Exception {
     }
+
 }
