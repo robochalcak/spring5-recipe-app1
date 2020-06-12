@@ -26,6 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Implement Owner displaying record. Closes #53">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownerDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/ownerDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -33,10 +36,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
-    <list id="f3b6d591-cb25-4f05-b477-e863920d67c5" name="Added displayed Owner record (HTML) closes #53" comment="Added displayed Owner record (HTML) closes #53" />
-    <list id="82ce2d80-1be3-47a0-81d8-a9ee4ffbb13d" name="Revert &quot;Added displayed Owner record (HTML) closes #53&quot;" comment="Revert &quot;Added displayed Owner record (HTML) closes #53&quot;&#10;&#10;This reverts commit 665e2889" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,10 +46,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,7 +61,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="d81042793c23dc920a1929e7175e55b5fe36d47a" />
+        <entry key="$PROJECT_DIR$/.." value="robo2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -70,6 +70,41 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="4a4157de-8477-4629-ab8f-32684eafdcf6" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="28" end1="28" start2="28" end2="30" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="35" end1="36" start2="37" end2="37" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="37" end1="39" start2="38" end2="38" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="48" end1="48" start2="47" end2="48" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="51" end1="52" start2="51" end2="51" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="63" end1="64" start2="62" end2="63" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="73" end1="73" start2="72" end2="107" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="242" end1="250" start2="276" end2="277" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="587" end1="588" start2="614" end2="622" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="690" end1="692" start2="724" end2="724" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="715" end1="716" start2="747" end2="751" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="773" end1="775" start2="808" end2="810" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="777" end1="778" start2="812" end2="813" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="782" end1="783" start2="817" end2="822" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="785" end1="787" start2="824" end2="826" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="789" end1="791" start2="828" end2="830" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="793" end1="795" start2="832" end2="834" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="797" end1="799" start2="836" end2="838" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="801" end1="803" start2="840" end2="842" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="805" end1="807" start2="844" end2="846" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="809" end1="811" start2="848" end2="850" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="813" end1="814" start2="852" end2="853" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="834" end1="835" start2="873" end2="874" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="837" end1="838" start2="876" end2="877" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="850" end1="851" start2="889" end2="890" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="853" end1="854" start2="892" end2="893" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="858" end1="870" start2="897" end2="897" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="882" end1="882" start2="909" end2="913" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="893" end1="906" start2="924" end2="925" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1cqjgqygYjvPK1NfYpTBIdni7TF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -240,14 +275,7 @@
       <workItem from="1591546076054" duration="148000" />
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
-      <workItem from="1591975861259" duration="336000" />
-    </task>
-    <task id="LOCAL-00005" summary="Added layout to vets page. Closes #21">
-      <created>1591289456138</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1591289456138</updated>
+      <workItem from="1591975861259" duration="1938000" />
     </task>
     <task id="LOCAL-00006" summary="Added visits, updated owner with pet relationship. Closes #26">
       <created>1591310292348</created>
@@ -585,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591976007067</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Implement Owner displaying record. Closes #53">
+      <created>1591976337169</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1591976337169</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,8 +723,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added spring data jpa service for owners. closes #40" />
-    <MESSAGE value="Added spring data jpa service for vets. closes #41" />
     <MESSAGE value="Added PetType SD JPA Service closes #42" />
     <MESSAGE value="Added Pet SD JPA Service closes #43" />
     <MESSAGE value="Added Specialty SD JPA Service closes #44" />
@@ -713,7 +746,10 @@
     <MESSAGE value=" fixed config.yml for circleCi 6" />
     <MESSAGE value="Adding budge. #60" />
     <MESSAGE value="Removing old junit surefire plugin, now provided by default. Closes #61" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing old junit surefire plugin, now provided by default. Closes #61" />
+    <MESSAGE value="fixup! Implement Owner displaying record. Closes #53" />
+    <MESSAGE value="Implement Owner displaying record. Closes #53" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Owner displaying record. Closes #53" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="321" key="#Assign_Data_Sources" timestamp="1591483813345">
@@ -736,10 +772,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591698843064" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591541488538">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1591979175878">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591541488538" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979175878" />
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591264189236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -771,47 +807,51 @@
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1591975127909">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="793" y="0" width="814" height="437" key="DiffContextDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591973630975" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1591546097955">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975127909" />
+    <state x="490" y="335" key="GitRewordDialog" timestamp="1591974749928">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591546097955" />
+    <state x="490" y="335" key="GitRewordDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974749928" />
     <state x="661" y="332" key="Github.Dialog.Accounts.Choose" timestamp="1591705132333">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="661" y="332" key="Github.Dialog.Accounts.Choose/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591705132333" />
-    <state width="1557" height="131" key="GridCell.Tab.0.bottom" timestamp="1591974174849">
+    <state x="591" y="310" key="Github.ShareDialog" timestamp="1591975640236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
-    <state width="1557" height="131" key="GridCell.Tab.0.center" timestamp="1591974174849">
+    <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
+    <state width="1557" height="516" key="GridCell.Tab.0.bottom" timestamp="1591979059057">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
-    <state width="1557" height="131" key="GridCell.Tab.0.left" timestamp="1591974174848">
+    <state width="1557" height="516" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059057" />
+    <state width="1557" height="516" key="GridCell.Tab.0.center" timestamp="1591979059056">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174848" />
-    <state width="1557" height="131" key="GridCell.Tab.0.right" timestamp="1591974174849">
+    <state width="1557" height="516" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059056" />
+    <state width="1557" height="516" key="GridCell.Tab.0.left" timestamp="1591979059055">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
-    <state width="1557" height="131" key="GridCell.Tab.1.bottom" timestamp="1591974174850">
+    <state width="1557" height="516" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059055" />
+    <state width="1557" height="516" key="GridCell.Tab.0.right" timestamp="1591979059056">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174850" />
-    <state width="1557" height="131" key="GridCell.Tab.1.center" timestamp="1591974174850">
+    <state width="1557" height="516" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059056" />
+    <state width="1557" height="516" key="GridCell.Tab.1.bottom" timestamp="1591979059057">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174850" />
-    <state width="1557" height="131" key="GridCell.Tab.1.left" timestamp="1591974174849">
+    <state width="1557" height="516" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059057" />
+    <state width="1557" height="516" key="GridCell.Tab.1.center" timestamp="1591979059057">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174849" />
-    <state width="1557" height="131" key="GridCell.Tab.1.right" timestamp="1591974174850">
+    <state width="1557" height="516" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059057" />
+    <state width="1557" height="516" key="GridCell.Tab.1.left" timestamp="1591979059057">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="131" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591974174850" />
+    <state width="1557" height="516" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059057" />
+    <state width="1557" height="516" key="GridCell.Tab.1.right" timestamp="1591979059057">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="516" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979059057" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -848,10 +888,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591976195085">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591976343049">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976195085" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976343049" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -880,6 +920,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="139" y="143" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976154977" />
+    <state x="601" y="218" key="git4idea.merge.GitMergeDialog" timestamp="1591976312459">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="601" y="218" key="git4idea.merge.GitMergeDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976312459" />
     <state x="554" y="291" key="git4idea.rebase.GitRebaseDialog" timestamp="1591975565799">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
