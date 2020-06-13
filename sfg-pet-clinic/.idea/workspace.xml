@@ -25,14 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Fix display owner. Closes #62">
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Impl find owner. Closes  #54">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/springdatajpa/OwnerSDJpaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -76,59 +71,25 @@
     <option name="defaultAccountId" value="4a4157de-8477-4629-ab8f-32684eafdcf6" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/pet-clinic-web/src/test/java/guru/springframework/sfgpetclinic/controllers/OwnerControllerTest.java">
-      <ranges>
-        <range start1="13" end1="13" start2="13" end2="17" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
-        <range start1="15" end1="16" start2="19" end2="21" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
-        <range start1="17" end1="21" start2="22" end2="22" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
-        <range start1="52" end1="69" start2="53" end2="53" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="73" end1="75" start2="57" end2="59" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="77" end1="77" start2="61" end2="87" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-      </ranges>
-    </file>
     <file path="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java">
       <ranges>
-        <range start1="2" end1="2" start2="2" end2="4" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="5" end1="5" start2="7" end2="9" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="6" end1="6" start2="10" end2="11" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="9" end1="9" start2="14" end2="16" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="10" end1="12" start2="17" end2="17" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
-        <range start1="22" end1="27" start2="27" end2="30" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="30" end1="32" start2="33" end2="36" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="33" end1="33" start2="37" end2="59" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="16" end1="18" start2="16" end2="16" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="46" end1="47" start2="44" end2="45" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/.idea/workspace.xml">
       <ranges>
         <range start1="27" end1="28" start2="27" end2="28" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="29" end1="31" start2="29" end2="35" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="74" end1="74" start2="78" end2="100" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="76" end1="105" start2="102" end2="131" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="118" end1="118" start2="144" end2="145" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="277" end1="285" start2="304" end2="305" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="622" end1="623" start2="642" end2="650" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="725" end1="726" start2="752" end2="752" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="750" end1="751" start2="776" end2="778" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="774" end1="775" start2="801" end2="802" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="777" end1="778" start2="804" end2="809" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="822" end1="823" start2="853" end2="854" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="825" end1="827" start2="856" end2="858" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="829" end1="831" start2="860" end2="862" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="833" end1="835" start2="864" end2="866" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="837" end1="839" start2="868" end2="870" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="841" end1="843" start2="872" end2="874" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="845" end1="847" start2="876" end2="878" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="849" end1="851" start2="880" end2="882" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="853" end1="854" start2="884" end2="885" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="874" end1="875" start2="905" end2="906" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="877" end1="878" start2="908" end2="909" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="890" end1="891" start2="921" end2="922" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="893" end1="894" start2="924" end2="925" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="898" end1="910" start2="929" end2="929" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="918" end1="919" start2="937" end2="938" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="921" end1="922" start2="940" end2="941" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="926" end1="926" start2="945" end2="949" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
-        <range start1="937" end1="950" start2="960" end2="961" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
+        <range start1="29" end1="35" start2="29" end2="29" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="78" end1="100" start2="72" end2="72" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="103" end1="131" start2="75" end2="85" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="304" end1="312" start2="258" end2="259" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="649" end1="650" start2="596" end2="604" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="752" end1="753" start2="706" end2="706" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="777" end1="778" start2="730" end2="732" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="921" end1="922" start2="875" end2="876" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="924" end1="925" start2="878" end2="879" changelist="118d3e3c-450a-4bc4-b02a-f610ebc343e4" />
+        <range start1="960" end1="973" start2="914" end2="915" changelist="cef5b529-0fd4-4509-b395-0a997ba6c093" />
       </ranges>
     </file>
   </component>
@@ -302,14 +263,7 @@
       <workItem from="1591546076054" duration="148000" />
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
-      <workItem from="1591975861259" duration="7346000" />
-    </task>
-    <task id="LOCAL-00007" summary="Added specialities, added to vet. Closes #27">
-      <created>1591310656383</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1591310656383</updated>
+      <workItem from="1591975861259" duration="8883000" />
     </task>
     <task id="LOCAL-00008" summary="Added properties. Closes #28">
       <created>1591310861108</created>
@@ -647,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591979352381</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Impl find owner. Closes  #54">
+      <created>1592006199573</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1592006199573</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +711,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Pet SD JPA Service closes #43" />
     <MESSAGE value="Added Specialty SD JPA Service closes #44" />
     <MESSAGE value="Implemented Map impl for Visit Service. Closes #46" />
     <MESSAGE value="Implement JPA Visit Service, added loader data. Closes #47" />
@@ -775,7 +735,8 @@
     <MESSAGE value="fixup! Implement Owner displaying record. Closes #53" />
     <MESSAGE value="Implement Owner displaying record. Closes #53" />
     <MESSAGE value="Fix display owner. Closes #62" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix display owner. Closes #62" />
+    <MESSAGE value="Impl find owner. Closes  #54" />
+    <option name="LAST_COMMIT_MESSAGE" value="Impl find owner. Closes  #54" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -851,38 +812,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
-    <state width="1557" height="215" key="GridCell.Tab.0.bottom" timestamp="1592006052816">
+    <state width="1557" height="136" key="GridCell.Tab.0.bottom" timestamp="1592039096092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052816" />
-    <state width="1557" height="215" key="GridCell.Tab.0.center" timestamp="1592006052816">
+    <state width="1557" height="136" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096092" />
+    <state width="1557" height="136" key="GridCell.Tab.0.center" timestamp="1592039096092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052816" />
-    <state width="1557" height="215" key="GridCell.Tab.0.left" timestamp="1592006052815">
+    <state width="1557" height="136" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096092" />
+    <state width="1557" height="136" key="GridCell.Tab.0.left" timestamp="1592039096092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052815" />
-    <state width="1557" height="215" key="GridCell.Tab.0.right" timestamp="1592006052816">
+    <state width="1557" height="136" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096092" />
+    <state width="1557" height="136" key="GridCell.Tab.0.right" timestamp="1592039096092">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052816" />
-    <state width="1557" height="215" key="GridCell.Tab.1.bottom" timestamp="1592006052818">
+    <state width="1557" height="136" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096092" />
+    <state width="1557" height="136" key="GridCell.Tab.1.bottom" timestamp="1592039096093">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052818" />
-    <state width="1557" height="215" key="GridCell.Tab.1.center" timestamp="1592006052817">
+    <state width="1557" height="136" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096093" />
+    <state width="1557" height="136" key="GridCell.Tab.1.center" timestamp="1592039096093">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052817" />
-    <state width="1557" height="215" key="GridCell.Tab.1.left" timestamp="1592006052817">
+    <state width="1557" height="136" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096093" />
+    <state width="1557" height="136" key="GridCell.Tab.1.left" timestamp="1592039096093">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052817" />
-    <state width="1557" height="215" key="GridCell.Tab.1.right" timestamp="1592006052817">
+    <state width="1557" height="136" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096093" />
+    <state width="1557" height="136" key="GridCell.Tab.1.right" timestamp="1592039096093">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="215" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006052817" />
+    <state width="1557" height="136" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592039096093" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -919,10 +880,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1591979355307">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592006209224">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591979355307" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592006209224" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
