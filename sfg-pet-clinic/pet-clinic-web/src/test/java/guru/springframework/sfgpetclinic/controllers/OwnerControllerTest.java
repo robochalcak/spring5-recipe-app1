@@ -121,7 +121,7 @@ class OwnerControllerTest {
     }
 
     @Test
-   void processUpdateOwnerForm()throws Exception{
+    void processUpdateOwnerForm()throws Exception{
         Owner owner = new Owner();
         owner.setId(1L);
         when(ownerService.save(ArgumentMatchers.any())).thenReturn(owner);
