@@ -25,16 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Added add pet, update pet. Closes  #56">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/formatters/PetTypeFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createOrUpdateVisiForm.html" afterDir="false" />
+    <list default="true" id="118d3e3c-450a-4bc4-b02a-f610ebc343e4" name="Default Changelist" comment="Fixed parse issue on PetType. Closes #65">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VisitController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/PetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/pets/createOrUpdatePetForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createOrUpdatePetForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/pets/createOrUpdateVisiForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createOrUpdateVisiForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/pets/createdOrUpdateVisitForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5webapp2" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5webapp2" afterDir="false" />
     </list>
     <list id="9bb7b8ac-60af-4def-a823-112f625ff129" name="fixup! Implement Owner displaying record. Closes #53" comment="fixup! Implement Owner displaying record. Closes #53" />
@@ -245,14 +241,7 @@
       <workItem from="1591546076054" duration="148000" />
       <workItem from="1591611456491" duration="4616000" />
       <workItem from="1591697571619" duration="3511000" />
-      <workItem from="1591975861259" duration="33450000" />
-    </task>
-    <task id="LOCAL-00013" summary="Added Specialties Map Impl. Closes #31">
-      <created>1591348345963</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1591348345963</updated>
+      <workItem from="1591975861259" duration="36455000" />
     </task>
     <task id="LOCAL-00014" summary="Adding specialties to vets on startup. Closes #34">
       <created>1591350053804</created>
@@ -590,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592148985558</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Fixed parse issue on PetType. Closes #65">
+      <created>1592223147152</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1592223147152</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +689,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upgraded to Junit 5, closes #4" />
     <MESSAGE value="Added tests. Closes #49" />
     <MESSAGE value="Added jpa tests for owner service. Closes #50" />
     <MESSAGE value="Added MockMvc Tests for Owner Controller. Closes #52" />
@@ -718,7 +713,8 @@
     <MESSAGE value="Ading model attributes for pet Controller. #56" />
     <MESSAGE value="Adding builder pattern to PetType. #56" />
     <MESSAGE value="Added add pet, update pet. Closes  #56" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added add pet, update pet. Closes  #56" />
+    <MESSAGE value="Fixed parse issue on PetType. Closes #65" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed parse issue on PetType. Closes #65" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -746,10 +742,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592044388486" />
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1592219907385">
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1592227533310">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592219907385" />
+    <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592227533310" />
     <state x="507" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591264189236">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -794,38 +790,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="591" y="310" key="Github.ShareDialog/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591975640236" />
-    <state width="1557" height="314" key="GridCell.Tab.0.bottom" timestamp="1592220184445">
+    <state width="1557" height="142" key="GridCell.Tab.0.bottom" timestamp="1592229378149">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184445" />
-    <state width="1557" height="314" key="GridCell.Tab.0.center" timestamp="1592220184443">
+    <state width="1557" height="142" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378149" />
+    <state width="1557" height="142" key="GridCell.Tab.0.center" timestamp="1592229378148">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184443" />
-    <state width="1557" height="314" key="GridCell.Tab.0.left" timestamp="1592220184443">
+    <state width="1557" height="142" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378148" />
+    <state width="1557" height="142" key="GridCell.Tab.0.left" timestamp="1592229378148">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184443" />
-    <state width="1557" height="314" key="GridCell.Tab.0.right" timestamp="1592220184443">
+    <state width="1557" height="142" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378148" />
+    <state width="1557" height="142" key="GridCell.Tab.0.right" timestamp="1592229378148">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184443" />
-    <state width="1557" height="314" key="GridCell.Tab.1.bottom" timestamp="1592220184446">
+    <state width="1557" height="142" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378148" />
+    <state width="1557" height="142" key="GridCell.Tab.1.bottom" timestamp="1592229378149">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184446" />
-    <state width="1557" height="314" key="GridCell.Tab.1.center" timestamp="1592220184446">
+    <state width="1557" height="142" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378149" />
+    <state width="1557" height="142" key="GridCell.Tab.1.center" timestamp="1592229378149">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184446" />
-    <state width="1557" height="314" key="GridCell.Tab.1.left" timestamp="1592220184445">
+    <state width="1557" height="142" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378149" />
+    <state width="1557" height="142" key="GridCell.Tab.1.left" timestamp="1592229378149">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184445" />
-    <state width="1557" height="314" key="GridCell.Tab.1.right" timestamp="1592220184446">
+    <state width="1557" height="142" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378149" />
+    <state width="1557" height="142" key="GridCell.Tab.1.right" timestamp="1592229378149">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="314" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592220184446" />
+    <state width="1557" height="142" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592229378149" />
     <state width="1557" height="127" key="GridCell.Tab.2.bottom" timestamp="1591527678983">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -866,10 +862,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="344" key="VCS.ChangelistChooser/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1591976054371" />
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592148994296">
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1592223149876">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592148994296" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1360.728@0.0.1600.860" timestamp="1592223149876" />
     <state x="616" y="208" key="chooseDestDirectoryDialog" timestamp="1591460351573">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
