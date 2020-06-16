@@ -36,7 +36,8 @@ public class ImageControllerTest {
         MockitoAnnotations.initMocks(this);
 
         controller = new ImageController(imageService, recipeService);
-        mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
+        mockMvc = MockMvcBuilders.standaloneSetup(controller)
+                .setControllerAdvice(new ControllerExceptionHandler()).build();
     }
 
     @Test
@@ -56,7 +57,7 @@ public class ImageControllerTest {
     @Test
     public void handleImagePost()throws Exception{
         MockMultipartFile multipartFile =
-                new MockMultipartFile("file", "texting.txt","text/plain",
+                new MockMultipartFile("imagefile", "testing.txt","text/plain",
                         "Spring Framework Guru".getBytes());
 
         this.mockMvc.perform(multipart("/recipe/1/image").file(multipartFile))
